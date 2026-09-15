@@ -1028,8 +1028,7 @@ section,
 .portfolio .portfolio-item .portfolio-info p {
   color: rgba(255, 255, 255, 0.85);
   font-size: 14px;
-  margin-bottom: 0;
-  padding-right: 50px;
+  margin-bottom: 8;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
@@ -1056,6 +1055,24 @@ section,
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-btn:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
